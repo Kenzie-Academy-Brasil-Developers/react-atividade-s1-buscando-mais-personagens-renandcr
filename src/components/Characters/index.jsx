@@ -1,13 +1,17 @@
 import CharCard from "../CharCard";
 
-const Characters = ({ characterList,nextPage,previousPage }) => {
+const Characters = ({ characterList, nextPage, previousPage }) => {
   return (
     <>
       <div className="title-div-top">
         <h1>Personagens de Rick and Morty</h1>
         <div className="buttons-div">
-          <button onClick={previousPage} className="previous-button">Previous page</button>
-          <button onClick={nextPage} className="next-button">Next page</button>
+          <button onClick={previousPage} className="previous-button">
+            Previous page
+          </button>
+          <button onClick={nextPage} className="next-button">
+            Next page
+          </button>
         </div>
       </div>
       <ul>
